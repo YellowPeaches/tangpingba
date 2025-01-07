@@ -46,7 +46,7 @@ public class SysLoginController
      * @return 结果
      */
     @PostMapping("/login")
-    public AjaxResult login( LoginBody loginBody)
+    public AjaxResult login(@RequestBody LoginBody loginBody)
     {
 
 //        String addressByIPTwo = AddressUtils.getAddressByIPTwo("223.81.249.122");
